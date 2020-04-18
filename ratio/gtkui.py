@@ -98,4 +98,4 @@ class GtkUI(GtkPluginBase):
         pass
 
     def update_ratio_label(self, ratio_and_totals):
-        self.ratio_status_bar_item.set_text('%0.1f (%0.1f/%0.1f %s)' % ratio_and_totals)
+        self.ratio_status_bar_item.set_text('%0.2f (%0.3f/%0.3f %s)' % ratio_and_totals)
